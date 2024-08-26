@@ -1,0 +1,59 @@
+
+.website-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-title-sub {
+  padding-top: 10px;
+}
+
+.title-bold {
+  color: #5856d6;
+}
+
+.celeb-name-carousel-container {
+  padding: 20px 0px 0px 0px;
+}
+
+.celeb-name-carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.celeb-name-carousel-item {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 60%;
+  transform: translateX(-60%);
+  top: 27.5%;
+  transform: translateY(-27.5%);
+  background: rgba(0, 0, 0, 0.25);
+  color: #fff;
+  padding: 10px;
+  width: 30%;
+  height: 70%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.try-now-button {
+  border-radius: 5px;
+  padding: 15px 30px;
+  fontSize: 20px;
+}
+
+.try-now-button-container {
+  padding: 20px 20px 40px 20px;
+  display: flex;
+  justify-content: center;  // Center horizontally
+  align-items: center;      // Center vertically
+}

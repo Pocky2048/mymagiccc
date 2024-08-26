@@ -1,6 +1,7 @@
 import Breadcrumbs from './Breadcrumbs'
 import Cards from './Cards'
 import Carousels from './Carousels'
+import LandingPage from './LandingPage'
 import Collapses from './Collapses'
 import Dropdowns from './Dropdowns'
 import Jumbotrons from './Jumbotrons'
@@ -14,6 +15,7 @@ import Tabs from './Tabs'
 import Tooltips from './Tooltips'
 
 export {
+  LandingPage,
   Breadcrumbs,
   Cards,
   Carousels,
